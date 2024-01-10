@@ -1,7 +1,7 @@
-import { Header } from './components/Header'
+import { Wrapper } from './wrapper'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { Nav } from './components/Nav'
+
 import {Rubik_Mono_One} from"next/font/google"
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,15 +16,15 @@ const RubikMonoOne = Rubik_Mono_One({
   weight:"400"
 })
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={RubikMonoOne.className}>
-        <div className=' h-screen p-4'>
-        <Header/>
-        {children}
-        <Nav className='absolute'/>
+    
+         <Wrapper>
+          {children}
+          </Wrapper>
 
-        </div>
       </body>
     </html>
   )
