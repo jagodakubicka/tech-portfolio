@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={RubikMonoOne.className}>
-        <div className='bg-primary h-screen bg-gradient-to-r from-primary/10 via-black/30 to-black/10 p-4'>
+        <div className=' h-screen p-4'>
         <Header/>
         {children}
-        <Nav className='absolute bg-white/10'/>
+        <Nav className='absolute'/>
 
         </div>
       </body>

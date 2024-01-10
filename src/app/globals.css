@@ -18,4 +18,6 @@
 
 body {
   color: #F2EFEA;
+  background: rgb(78,62,134);
+  background: radial-gradient(circle, rgba(78,62,134,1) 15%, rgba(8,3,20,1) 69%);
 }

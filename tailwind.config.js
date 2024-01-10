@@ -26,6 +26,9 @@ module.exports = {
       backgroundImage: {
           'layers': "url('/background.jpg')",
       },
+      backgroundColor:{
+        'radial':'radial-gradient(circle, rgba(78,62,134,1) 13%, rgba(8,3,20,1) 48%)'
+      }
     },
   },
   plugins: [],
